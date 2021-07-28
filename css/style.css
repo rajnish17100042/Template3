@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* css for home section*/
+
+#home .bg-image{
+   background:url("img/intro-bg.jpg");
+   background-position:cover;
+}
