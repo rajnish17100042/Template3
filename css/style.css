@@ -12,7 +12,7 @@ body{
     box-sizing: border-box;
 }
 
-.bg-image{
+#home .bg-image{
   
     background:url(../img/intro-bg.jpg) no-repeat;
     background-size: cover;
@@ -66,6 +66,40 @@ body{
 }
 
 
+
+/* css for about section */
+
+.about-title{
+    padding:50px 0;
+}
+
+.about-title h2{
+    font-size:40px;
+    font-weight:50;
+    color:rgba(19, 20, 20, 0.658);
+}
+
+
+.about-title hr{
+    width:65px;
+    height:1px;
+    background-color:rgb(11, 162, 219);
+    
+} 
+
+.about-image{
+    padding:20px 20px;
+    height:60vh;
+    border:1px solid rgb(11, 162, 219);
+    border-radius:20px;
+}
+.about-image .bg-image{
+    background:url(../img/about.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height:54vh;
+    
+}
 
 
 
