@@ -64,3 +64,46 @@ body{
 #home .button:hover{
     background-color:rgb(102, 102, 102);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+
+/* ipad size */
+@media screen and (max-width:768px){
+    #home .bg-image{
+       height:100vh;
+    }
+    .home-content{
+        position:absolute;
+        top:30%;
+        left:6%;
+    }
+    
+ 
+ 
+ }
+
+
+/* for mobile responsive  */
+@media screen and (max-width:600px){
+     
+    .home-content{
+        position:absolute;
+        top:30%;
+        left:5%;
+    }
+    
+ 
+ 
+ }
