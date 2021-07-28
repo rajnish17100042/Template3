@@ -101,6 +101,28 @@ body{
     
 }
 
+.about-text h3{
+  font-size:20px;
+  font-weight:500;
+  padding:20px 0;
+}
+
+.about-text p{
+   padding:10px 0;
+  }
+
+.about-text li{
+    list-style:none;
+    letter-spacing:0.5px;
+  
+}
+
+.about-text li::before{
+    content:"\2713" ;   /*  ( \2713 ) is the css code for tick mark */
+    letter-spacing:5px;
+    color:rgb(11, 162, 219);
+}
+
 
 
 
