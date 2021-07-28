@@ -2,11 +2,65 @@ html{
     scroll-behavior: smooth;
 }
 
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 /* css for home section*/
 
+*{
+    box-sizing: border-box;
+}
+
 .bg-image{
-   background:url("img/intro-bg.jpg");
-   background-position:cover;
+  
+    background:url(../img/intro-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height:120vh;
+    
+}
+.home-content{
+    position:absolute;
+    top:35%;
+    left:25%;
+    z-index:1;
+    text-align:center;
+
+    
+}
+.home-content h1 {
+    color: rgb(11, 162, 219);
+    font-size: 74px;
+    font-weight: 600;
+    margin-top: 0px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.home-content p {
+    color: rgba(1, 6, 8, 0.651);
+    font-size: 25px;
+    font-weight:200;
+    margin-top: 0px;
+    text-transform: uppercase;
+    margin-bottom:90px;
+}
+
+
+#home .button{
+    
+    border:1px solid transparent;
+    border-radius:2px;
+    background-color:rgb(11, 162, 219);
+    padding:15px 15px;;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    
+    text-align:center;
+}
+ 
+#home .button:hover{
+    background-color:rgb(102, 102, 102);
 }
