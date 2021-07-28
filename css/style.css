@@ -6,7 +6,7 @@ html{
 
 /* css for home section*/
 
-#home .bg-image{
+.bg-image{
    background:url("img/intro-bg.jpg");
    background-position:cover;
 }
