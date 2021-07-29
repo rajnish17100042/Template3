@@ -7,7 +7,6 @@ body{
 }
 
 
-
 *{
     box-sizing: border-box;
 }
@@ -69,7 +68,6 @@ body{
 
 
 #home .button{
-    
     border:1px solid transparent;
     border-radius:2px;
     background-color:rgb(11, 162, 219);
@@ -154,8 +152,91 @@ body{
     color:rgb(11, 162, 219);
     padding-bottom:10px;
 }
+/* end of css for service section */
 
 
+
+/* css for pricing section */
+#pricing{
+    padding:50px 0 100px 0;
+}
+
+#pricing p{
+
+    color:rgba(0, 0, 0, 0.616);
+}
+
+.price {
+    list-style: none;
+    border: 1px solid rgb(238, 238, 238);
+    margin:10px 0;
+    padding: 0;
+    
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: rgb(238, 236, 236);
+    color: rgba(10, 10, 10, 0.822);
+    font-size:25px;
+    padding:20px;
+  }
+  
+  .price .std-header{
+    background-color: rgb(11, 162, 219);
+    color: rgb(255, 255, 255);
+    font-size:25px;
+    padding:30px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 20px;
+    text-align: center;
+  }
+  
+ .price .charge{
+     font-size: 42px;
+ }
+
+  #pricing .button{
+    border:1px solid transparent;
+    border-radius:2px;
+    background-color:rgb(11, 162, 219);
+    padding:10px 20px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    text-align:center;
+
+ }
+
+ 
+ #pricing .button:hover{
+    background-color:rgb(102, 102, 102);
+ }
+
+ .price .std-last-list {
+     padding:30px;
+     background-color:rgb(11, 162, 219);
+ }
+
+.price .std-button{
+    border:1px solid rgb(255, 255, 255);
+    border-radius:2px;
+    background-color:rgb(11, 162, 219);
+    padding:10px 20px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    text-align:center;
+}
 
 
 
@@ -167,6 +248,9 @@ body{
 
 /* ipad size */
 @media screen and (max-width:768px){
+
+   
+
     #home .bg-image{
        height:100vh;
     }
@@ -189,6 +273,8 @@ body{
         top:30%;
         left:5%;
     }
+    
+    
     
  
  
