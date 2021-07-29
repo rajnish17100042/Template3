@@ -12,6 +12,12 @@ body{
 }
 
 
+p{
+
+    color:rgba(0, 0, 0, 0.616);
+}
+
+
 /* similar css code for the title of each section */
 .section-title{
     padding:50px 0;
@@ -67,19 +73,19 @@ body{
 }
 
 
-#home .button{
+.button{
     border:1px solid transparent;
     border-radius:2px;
     background-color:rgb(11, 162, 219);
-    padding:15px 15px;;
-    color:white;
-    text-decoration: none;
+    padding:15px 15px;
+    color:rgb(253, 252, 252);
+    text-decoration: none !important;
     text-transform: uppercase;
     letter-spacing:1px;
     text-align:center;
 }
  
-#home .button:hover{
+.button:hover{
     background-color:rgb(102, 102, 102);
 }
 /* end of home section css */
@@ -142,11 +148,7 @@ body{
     
 
 }
-#service p{
 
-    color:rgba(0, 0, 0, 0.616);
-
-}
 #service i{
     font-size:40px;
     color:rgb(11, 162, 219);
@@ -161,18 +163,13 @@ body{
     padding:50px 0 100px 0;
 }
 
-#pricing p{
 
-    color:rgba(0, 0, 0, 0.616);
-}
 
 .price {
     list-style: none;
     border: 1px solid rgb(238, 238, 238);
     margin:10px 0;
     padding: 0;
-    
-    transition: 0.3s;
   }
   
   .price:hover {
@@ -203,43 +200,81 @@ body{
      font-size: 42px;
  }
 
-  #pricing .button{
-    border:1px solid transparent;
-    border-radius:2px;
-    background-color:rgb(11, 162, 219);
-    padding:10px 20px;
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing:1px;
-    text-align:center;
 
- }
 
  
- #pricing .button:hover{
-    background-color:rgb(102, 102, 102);
- }
+ 
 
  .price .std-last-list {
      padding:30px;
      background-color:rgb(11, 162, 219);
  }
 
-.price .std-button{
+.std-button{
     border:1px solid rgb(255, 255, 255);
     border-radius:2px;
     background-color:rgb(11, 162, 219);
     padding:10px 20px;
     color:rgb(255, 255, 255);
-    text-decoration: none;
+    text-decoration: none !important;
     text-transform: uppercase;
     letter-spacing:1px;
     text-align:center;
 }
 
+.std-button:hover{
+    background-color:rgb(102, 102, 102);
+}
+/* end of css code for pricing section */
 
 
+
+/* css for contact section */
+#contact{
+    background-color:rgba(230, 227, 227, 0.384);
+
+}
+
+.form-container{
+    margin:0 200px;
+}
+
+.form-data input{
+    margin:0 0 10px 0;
+   
+}
+.form-data textarea{
+    height:100px;
+}
+
+.form-data button{
+    margin-top:25px;
+}
+
+.social{
+     padding:100px 0;
+}
+.social li{
+    
+    list-style:none;
+    display:inline-block;
+    padding:0 25px;
+    font-size:25px;
+}
+/* end of css code for contact section */
+
+
+/* css for footer */
+#footer{
+    background-color:rgba(224, 222, 222, 0.719);
+    padding:30px 0 20px 0;
+    text-align:center;
+}
+
+#footer a{
+    text-decoration:none;
+    color:rgba(29, 29, 29, 0.651);
+}
 
 
 
@@ -260,7 +295,11 @@ body{
         left:6%;
     }
     
- 
+ .form-container{
+     margin:0;
+ }
+
+
  
  }
 
@@ -274,8 +313,14 @@ body{
         left:5%;
     }
     
+    .form-container{
+        margin:0;
+    }
     
-    
- 
+    .social li{
+        margin-left:0;
+        padding:10px;
+       
+   }
  
  }
